@@ -1,0 +1,6 @@
+{
+  "name": "post-product",
+  "version": "0.0.1",
+  "apiDependencies": ["product"]
+}
+
