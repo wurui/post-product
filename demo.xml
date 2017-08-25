@@ -14,54 +14,28 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-            <product>
-        <id>
-            watch
-        </id>
-        <price>
-            52.37
-        </price>
-        <orig_price>
-            1.36
-        </orig_price>
-        <img>
-            <i>
-                //oxm1.cc/img/fox.jpg
-            </i>
-        </img>
-        <title>
-            strong laptop
-        </title>
-        <desc>
-            strong camera
-        </desc>
-        <param>
-            <i>
-                <label>
-                    nice camera
-                </label>
-                <value>
-                    screen
-                </value>
-            </i>
-        </param>
-        <tags>
-            <i>
-                tough camera
-            </i>
-        </tags>
-        <brand>
-            good wallet
-        </brand>
-        <series>
-            strong mobilephone
-        </series>
-        <model>
-            watch
-        </model>
-        <inventory>
-            3
-        </inventory>
-    </product>
+        <product>
+            <_id>599fef642808e0a182a6ad07</_id>
+            <price>52.37</price>
+            <orig_price>1.36</orig_price>
+            <img>
+                <i>//oxm1.cc/img/fox.jpg</i>
+            </img>
+            <title>strong laptop</title>
+            <desc>strong camera</desc>
+            <param>
+                <i>
+                    <label>nice camera</label>
+                    <value>screen</value>
+                </i>
+            </param>
+            <tags>
+                <i>tough camera</i>
+            </tags>
+            <brand>good wallet</brand>
+            <series>strong mobilephone</series>
+            <model>watch</model>
+            <inventory>3</inventory>
+        </product>
     </data>
 </root>

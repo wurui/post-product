@@ -7,14 +7,26 @@ define(['oxjs'], function (OXJS) {
             var productRest=OXJS.useREST('product/'+dsid+'/u/' + encodeURIComponent(uid)).setDevHost('http://local.openxsl.com/');//md5('saomachetie')
             $('.J_mainform',$mod).on('submit',function(e){
                 var data=OXJS.formToJSON(e.target);
-                productRest.post(data,function(r){
-                    if(r.code==0){
-                        //console.log('gggood!')
-                        location.href=forward;
-                    }else{
-                        OXJS.toast(r.message)
-                    }
-                });
+                if(data._id){
+                    productRest.put(data,function(r){
+                        if(r.code==0){
+                            //console.log('gggood!')
+                            location.href=forward;
+                        }else{
+                            OXJS.toast(r.message)
+                        }
+                    });
+                }else{
+                    productRest.post(data,function(r){
+                        if(r.code==0){
+                            //console.log('gggood!')
+                            location.href=forward;
+                        }else{
+                            OXJS.toast(r.message)
+                        }
+                    });
+                }
+
                 return false
             })
 
