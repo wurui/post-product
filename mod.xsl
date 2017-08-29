@@ -18,6 +18,16 @@
                         <input type="text" placeholder="价格" name="orig_price" value="{$product/orig_price}"/>
                     </li>
                     <li>
+                        <input type="text" placeholder="图片" name="img">
+                            <xsl:attribute name="value">
+                                <xsl:for-each select="$product/img/i">
+                                    <xsl:value-of select="."/>
+                                </xsl:for-each>
+                            </xsl:attribute>
+                        </input>
+
+                    </li>
+                    <li>
                         <input type="text" placeholder="品牌" name="brand" value="{$product/brand}"/>
                     </li>
                     <li>
@@ -28,6 +38,9 @@
                     </li>
                     <li>
                         <input type="number" placeholder="库存" name="inventory" value="{$product/inventory}"/>
+                    </li>
+                    <li>
+                        <textarea name="desc" placeholder="描述"></textarea>
                     </li>
                     <li class="bottom">
                         <button class="J_submit">提交</button>

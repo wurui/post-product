@@ -1,6 +1,13 @@
 .oxmod-post-product ul {
   padding: 10px 15px;
 }
+.oxmod-post-product textarea {
+  width: 100%;
+  min-height: 60px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
 .oxmod-post-product select,
 .oxmod-post-product input,
 .oxmod-post-product button {
@@ -10,6 +17,7 @@
   border-radius: 5px;
   font-size: 14px;
 }
+.oxmod-post-product textarea,
 .oxmod-post-product input {
   padding: 2px;
   -webkit-box-sizing: border-box;
