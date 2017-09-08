@@ -15,7 +15,10 @@
                         <input type="text" placeholder="商品标题" name="title" value="{$product/title}"/>
                     </li>
                     <li>
-                        <input type="text" placeholder="价格" name="orig_price" value="{$product/orig_price}"/>
+                        <input type="text" placeholder="原价" name="orig_price" value="{$product/orig_price}"/>
+                    </li>
+                    <li>
+                        <input type="text" placeholder="折扣价" name="orig_price" value="{$product/price}"/>
                     </li>
                     <li>
                         <input type="text" placeholder="图片" name="img">
