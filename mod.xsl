@@ -18,7 +18,7 @@
                         <input type="text" placeholder="原价" name="orig_price" value="{$product/orig_price}"/>
                     </li>
                     <li>
-                        <input type="text" placeholder="折扣价" name="orig_price" value="{$product/price}"/>
+                        <input type="text" placeholder="折扣价" name="price" value="{$product/price}"/>
                     </li>
                     <li>
                         <input type="text" placeholder="图片" name="img">
